@@ -1,5 +1,4 @@
 import React from "react";
-import "./Weather.css";
 
 export default function Footer() {
   return (
@@ -11,6 +10,7 @@ export default function Footer() {
           rel="noreferrer"
           title="Open-source Code"
           id="gitHubLink"
+          className="text-success"
         >
           Open-source Code {}
         </a>
@@ -21,6 +21,7 @@ export default function Footer() {
           rel="noreferrer"
           title="Open-source Code"
           id="idLink"
+          className="text-success"
         >
           {} Anna Myslyva {}
         </a>
@@ -31,6 +32,7 @@ export default function Footer() {
           rel="noreferrer"
           title="Open-source Code"
           id="netifyLink"
+          className="text-success"
         >
           on Netify
         </a>
