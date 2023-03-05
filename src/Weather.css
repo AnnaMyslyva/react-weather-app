@@ -44,10 +44,10 @@
   margin-top: 13px;
 }
 
-.Weather .unit {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
+.Weather .weatherunit {
+  color: rgb(2, 87, 2);
+  font-size: 20px;
+  font-weight: 500;
   position: relative;
   line-height: 1;
   top: -34px;

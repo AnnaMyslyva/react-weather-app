@@ -1,6 +1,7 @@
 import React from "react";
 import RealDate from "./RealDate";
 import WeatherIcon from "./WeatherIcon";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInformations(props) {
   return (
@@ -18,8 +19,9 @@ export default function WeatherInformations(props) {
             <div>
               <WeatherIcon code={props.wdata.icon} size={50} />
             </div>
-            <div className="Wtemperature">
-              {Math.round(props.wdata.temperature)}ºC
+
+            <div>
+              <WeatherTemperature celsius={props.wdata.temperature} />
             </div>
           </div>
         </div>
