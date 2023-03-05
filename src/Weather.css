@@ -5,7 +5,6 @@
   margin-top: 20px;
   border-radius: 4px;
   background-color: rgb(248, 253, 249);
-  max-width: 60%;
 }
 .Weather h1 {
   font-size: 44px;
@@ -30,18 +29,19 @@
   padding-bottom: 5px;
 }
 
-.Weather .temperature {
+.Weather .Wtemperature {
   font-weight: bold;
   color: rgb(3, 119, 3);
   font-size: 60px;
   line-height: 60px;
-  margin-left: 5px;
+  margin-left: 25px;
   font-weight: 500;
-  margin-left: 12px;
+  padding-top: 2px;
 }
 
 .Weather canvas {
   margin: 15px auto;
+  margin-top: 13px;
 }
 
 .Weather .unit {

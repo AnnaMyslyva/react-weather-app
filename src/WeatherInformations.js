@@ -1,5 +1,6 @@
 import React from "react";
 import RealDate from "./RealDate";
+import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherInformations(props) {
   return (
@@ -13,13 +14,13 @@ export default function WeatherInformations(props) {
       </ul>
       <div className="row mt-3">
         <div className="col-6">
-          <img
-            src={props.wdata.icon}
-            alt={props.wdata.description}
-            className="float-left"
-          />
-          <div className="temperature">
-            {Math.round(props.wdata.temperature)}ºC
+          <div className="d-flex">
+            <div>
+              <WeatherIcon code={props.wdata.icon} size={50} />
+            </div>
+            <div className="Wtemperature">
+              {Math.round(props.wdata.temperature)}ºC
+            </div>
           </div>
         </div>
         <div className="col-6">
