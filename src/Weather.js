@@ -10,7 +10,6 @@ export default function Weather() {
           placeholder="Enter a city"
           className="form-search"
         />
-
         <input type="submit" value="Search" className="text-success" />
       </form>
       <h1>Munich</h1>
@@ -19,11 +18,11 @@ export default function Weather() {
         <li>Mostly cloudy</li>
       </ul>
       <div className="row">
-        <div className="col-6">
+        <div className="col-4">
           <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" />
           <div className="temperature">4ºC</div>
         </div>
-        <div className="col-6">
+        <div className="col-4">
           <ul>
             <li>Precipitation: 15%</li>
             <li>Humidity: 72%</li>
