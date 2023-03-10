@@ -34,7 +34,7 @@ export default function Footer() {
           id="netifyLink"
           className="text-success"
         >
-          on Netify
+          on Netlify
         </a>
       </p>
     </footer>
