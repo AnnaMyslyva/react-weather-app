@@ -46,7 +46,7 @@ export default function Weather(props) {
             className="form-search"
             onChange={handleChangeCity}
           />
-          <input type="submit" value="Search" className="text-success" />
+          <input type="submit" value="Search" className="text-success, ms-2" />
         </form>
         <WeatherInformations wdata={weatherData} />
         <WeatherForecast coordinates={weatherData.coords} />
