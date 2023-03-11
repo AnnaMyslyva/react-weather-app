@@ -7,7 +7,7 @@ export default function Footer() {
         <a
           href="https://github.com/AnnaMyslyva/react-weather-app"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           title="Open-source Code"
           id="gitHubLink"
           className="text-success"
@@ -18,7 +18,7 @@ export default function Footer() {
         <a
           href="https://www.linkedin.com/in/anna-myslyva-a14879162/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           title="Open-source Code"
           id="idLink"
           className="text-success"
@@ -29,7 +29,7 @@ export default function Footer() {
         <a
           href="https://chic-tiramisu-a078ce.netlify.app"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           title="Open-source Code"
           id="netifyLink"
           className="text-success"
