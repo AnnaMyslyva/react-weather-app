@@ -14,7 +14,7 @@ export default function WeatherInformations(props) {
         <li className="text-capitalize">{props.wdata.description}</li>
       </ul>
       <div className="row mt-3">
-        <div className="col-6">
+        <div className="col-sm-6">
           <div className="d-flex">
             <div>
               <WeatherIcon code={props.wdata.icon} size={54} />
@@ -25,7 +25,7 @@ export default function WeatherInformations(props) {
             </div>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-sm-6">
           <ul>
             <li>Humidity: {props.wdata.humidity}%</li>
             <li>Wind: {props.wdata.wind} km/h</li>
